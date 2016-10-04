@@ -9,12 +9,12 @@
 •	 Running Mesos using Vagrant  (Chạy Mesos sử dụng Vagrant)
 •	 The Mesos community (Các công ty, đơn vị sử dụng Mesos)
 
-# Modern data centers (Các trung tâm dữ liệu mới)
+#Modern data centers (Các trung tâm dữ liệu mới)
 Các ứng dụng hiện đại phụ thuộc rất nhiều vào dữ liệu. Sự gia tăng đa dạng trong các dữ liệu được tạo ra và xử lý bởi các tổ chức liên tục thay đổi cách chúng ta lưu trữ và xử lý nó. Khi lập kế hoạch kiến trúc hiện đại để lưu trữ và xử lý dữ liệu, chúng tôi không thể hy vọng chỉ cần mua phần cứng với cấu hình cao để giải quyết vấn đề. Các Framework khác nhau để xử lý hàng loạt, xử lý dòng, dịch vụ người dùng phải đối mặt, xử lý đồ thị và phân tích quảng cáo hoc là mỗi bit như là quan trọng như các phần cứng mà họ chạy trên. Những framework là các ứng dụng cung cấp năng lượng cho trung tâm dữ liệu.
 Dung lượng và các loại của dữ liệu lớn 
 Kích cỡ và nhiều loại dữ liệu lớn có nghĩa là chiến lược quy mô-up truyền thống không còn phù hợp với khối lượng công việc hiện đại. Như vậy, các tổ chức lớn đã chuyển sang chế biến phân phối, nơi mà một số lượng lớn các máy tính hoạt động như một máy tính khổng lồ duy nhất. Các cụm được chia sẻ bởi nhiều ứng dụng với yêu cầu tài nguyên khác nhau, và chia sẻ hiệu quả các nguồn tài nguyên ở mức độ này trong nhiều khuôn khổ là chìa khóa để đạt được sử dụng cao. Có một nhu cầu để xem xét tất cả các máy này như một máy tính quy mô kho duy nhất. Mesos được thiết kế để các hạt nhân của máy tính như vậy.
 Theo truyền thống, khuôn khổ chạy trong silo và các nguồn lực được tĩnh phân chia giữa họ, dẫn đến việc sử dụng không hiệu quả các nguồn lực. Sự cần thiết phải xem xét một số lượng lớn các máy hàng như một máy tính duy nhất, và khả năng chia sẻ tài nguyên một cách đàn hồi của tất cả các khung đòi hỏi một khuôn khổ tính toán cluster. Mesos được lấy cảm hứng từ ý tưởng chia sẻ các nguồn lực trong một cluster giữa nhiều khung trong khi cung cấp cách ly tài nguyên.
-# Cluster computing frameworks
+#Cluster computing frameworks
 Trong cụm hiện đại, các yêu cầu tính toán của các khuôn khổ khác nhau là hoàn toàn khác nhau, và các tổ chức cần phải chạy nhiều khuôn khổ và chia sẻ dữ liệu và các nguồn lực giữa chúng. quản lý tài nguyên phải đối mặt với những mục tiêu đầy thách thức và cạnh tranh:
 • Hiệu quả: hiệu quả chia sẻ các nguồn lực là mục tiêu chính của phần mềm quản lý cụm.
 • Cách ly: Khi nhiều nhiệm vụ đang chia sẻ nguồn lực, một trong những cân nhắc quan trọng nhất là phải đảm bảo cách ly tài nguyên. Cô lập kết hợp với lịch trình thích hợp là nền tảng của việc bảo đảm các thỏa thuận cấp độ dịch vụ (SLAs).
