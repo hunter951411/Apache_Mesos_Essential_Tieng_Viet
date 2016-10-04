@@ -1,4 +1,5 @@
- #Chương này sẽ cung cấp cho bạn một cái nhìn tổng quan ngắn gọn về Apache Mesos và các framework cluster computing. Chúng tôi sẽ hướng dẫn bạn qua các bước để thiết lập Mesos single-node và multi-node. Chúng tôi cũng sẽ xem làm thế nào để thiết lập một cluster Mesos sử dụng Vagrant và trên Amazon EC2. Trong suốt cuốn sách này, chúng tôi sẽ đề cập đến Apache Mesos. Trong chương này, chúng tôi sẽ đề cập đến các chủ đề sau:
+ #Chapter 1: Running Mesos
+ Chương này sẽ cung cấp cho bạn một cái nhìn tổng quan ngắn gọn về Apache Mesos và các framework cluster computing. Chúng tôi sẽ hướng dẫn bạn qua các bước để thiết lập Mesos single-node và multi-node. Chúng tôi cũng sẽ xem làm thế nào để thiết lập một cluster Mesos sử dụng Vagrant và trên Amazon EC2. Trong suốt cuốn sách này, chúng tôi sẽ đề cập đến Apache Mesos. Trong chương này, chúng tôi sẽ đề cập đến các chủ đề sau:
 •	 Modern data centers (trung tâm dữ liệu mới)
 •	 Cluster computing frameworks (Các framework về Cluster computing)
 •	 Introducing Mesos (Giới thiệu về Mesos)
